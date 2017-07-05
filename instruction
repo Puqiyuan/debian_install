@@ -41,8 +41,10 @@ Attention:
     sudo mkdir /etc/X11/xorg.conf.d 
     sudo cp dotfile/etc/X11/xorg.conf.d/30-touchpad.conf /etc/X11/xorg.conf.d/
     3, fix your input:
-    copy the .config/fictx to your .config/fictx
+    copy the .config/fictx to your .config/fictx and sudo apt install dbus-x11
     4, install chrome and bypass GFW, install deb package on Weiyun, and dpkg -i, then 
     copy .config/google-chrome to your .config/google-chrome, see Weiyun and github
     https://www.weiyun.com/disk/index.html
     https://github.com/Puqiyuan/debian_install_software
+    5, tab command for sudo:
+    sudo cp dotfile/etc/bash.bashrc /etc/
