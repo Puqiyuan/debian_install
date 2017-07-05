@@ -1,0 +1,40 @@
+The instruction is from:
+    http://cs2.swfu.edu.cn/~wx672/lecture_notes/linux/install.html
+
+
+1, first, you need to download a install file:
+   http://mirrors.163.com/debian-cd/current/amd64/iso-cd/
+   download the file that end with netinst.iso
+
+2, then insert your USB, now we are ready to make live USB by the downloaded file,
+   on Debian it's easy:
+   sudo cp debian-x.x,x-amd-netinst.iso	/dev/sdX
+   sudo sync
+   change the X to the char that you find by the command:
+   sudo fdisk -l
+   x.x.x is number that you download version number.
+
+3, now reboot your machine and press F12 for Lenovo then select boot from USB.
+
+4, DO NOT insert your net wire, Select "Install", select "English", select "Hong Kong",
+   "American English", get a beautiful host name for your Debian system, say sun. no
+   domain name, and root, user, password and all that.
+
+5, After some waiting, we now consider partition, for example of my machine, there is
+   a 500GB disk. 200GB for a Debian, so 300GB free, now I give my new Debian, sun to 100
+   GB, SELECT 297.1GB, I will partition this disk, I must every care because there already
+   a Debian. Then Create a new partition, 100GB, And mount point is /.
+
+6, Then waiting installing the base system. And select mirror source, in China, it be
+   better 163 source. When configure may need network, but after that we need to unplug
+   the network, because we just need to install a base system. Select install software,
+   but only select standard system utilities and print server, we don't need a desktop.
+   There need network.
+
+7, 
+
+
+
+   
+
+
