@@ -44,3 +44,5 @@ Attention:
     copy the .config/fictx to your .config/fictx
     4, install chrome and bypass GFW, install deb package on Weiyun, and dpkg -i, then 
     copy .config/google-chrome to your .config/google-chrome, see Weiyun and github
+    https://www.weiyun.com/disk/index.html
+    https://github.com/Puqiyuan/debian_install_software
