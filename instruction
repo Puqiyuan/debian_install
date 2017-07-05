@@ -35,6 +35,12 @@ The instruction is from:
 
 
 
-   
-
-
+Attention:
+    1, when you install softare, some packages can not get, remove it.
+    2, you need to activate touch pad by the commands:
+    sudo mkdir /etc/X11/xorg.conf.d 
+    sudo cp dotfile/etc/X11/xorg.conf.d/30-touchpad.conf /etc/X11/xorg.conf.d/
+    3, fix your input:
+    copy the .config/fictx to your .config/fictx
+    4, install chrome and bypass GFW, install deb package on Weiyun, and dpkg -i, then 
+    copy .config/google-chrome to your .config/google-chrome, see Weiyun and github
