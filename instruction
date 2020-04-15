@@ -48,3 +48,5 @@ Attention:
     https://github.com/Puqiyuan/debian_install_software
     5, tab command for sudo:
     sudo cp dotfile/etc/bash.bashrc /etc/
+    6, gnmome sound
+    /etc/X11/sawfish/site-init.d/00debian.jl
