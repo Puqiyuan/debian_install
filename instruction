@@ -50,3 +50,5 @@ Attention:
     sudo cp dotfile/etc/bash.bashrc /etc/
     6, gnmome sound
     /etc/X11/sawfish/site-init.d/00debian.jl
+    7, full-screen
+    sudo apt-get install open-vm-tools open-vm-tools-desktop
